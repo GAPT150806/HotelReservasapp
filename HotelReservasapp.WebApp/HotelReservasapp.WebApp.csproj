@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\HotelReservasapp.BusinessLogic\HotelReservasapp.BusinessLogic.csproj" />
+    <ProjectReference Include="..\HotelReservasapp.DataAccess\HotelReservasapp.DataAccess.csproj" />
   </ItemGroup>
 
 </Project>

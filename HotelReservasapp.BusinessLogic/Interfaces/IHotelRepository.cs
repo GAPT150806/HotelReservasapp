@@ -5,6 +5,6 @@ namespace HotelReservasapp.BusinessLogic.Interfaces
 {
     public interface IHotelRepository : IBaseRepository<Hotel>
     {
-        Task<Hotel> GetByNameAsync(string name);
+        Task<Hotel?> GetByNameAsync(string name);
     }
 }

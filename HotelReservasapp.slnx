@@ -9,6 +9,6 @@
     <Project Path="HotelReservasapp.DataAccess/HotelReservasapp.DataAccess.csproj" />
   </Folder>
   <Folder Name="/WebApp/">
-    <Project Path="HotelReservasapp;.WebApp/HotelReservasapp;.WebApp.csproj" />
+    <Project Path="HotelReservasapp.WebApp/HotelReservasapp.WebApp.csproj" />
   </Folder>
 </Solution>

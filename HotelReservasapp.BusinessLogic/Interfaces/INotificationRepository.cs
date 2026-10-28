@@ -1,9 +1,9 @@
-﻿using HotelReservasapp.BusinessLogic.Entities;
+﻿
+using HotelReservasapp.BusinessLogic.Entities;
 
-namespace HotelReservasapp.BusinessLogic.Interfaces
+namespace HotelReservasapp.BusinessLogic.Interfaces;
+
+public interface INotificationRepository : IBaseRepository<Notification>
 {
-    public interface INotificationRepository : IBaseRepository<Notification>
-    {
-        Task<Notification> GetByReservationAsync(int id);
-    }
+    Task<IEnumerable<Notification>> GetByReservationAsync(int idReserva);
 }
